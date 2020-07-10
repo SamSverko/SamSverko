@@ -14,10 +14,10 @@
 
 ---
 
-### Get in touch 💌
+### Get in touch
 
 💬 Ask me anything on [GitHub](https://github.com/SamSverko/ama)
 
-📧 By email [sam.sverko@gmail.com](mailto:sam.sverko@gmail.com)
+💌 By email [sam.sverko@gmail.com](mailto:sam.sverko@gmail.com)
 
 🔗 Connect on [LinkedIn](https://www.linkedin.com/in/samsverko/)
