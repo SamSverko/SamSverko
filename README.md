@@ -2,7 +2,7 @@
 
 👋 I'm Sam, a front-end developer living in Canada.
 
-📚 I'm a natural problem-solver and life-long learner who is not afraid of a challenge, and believe that being able to have fun on the job makes any project possible.
+📚 I'm a natural problem-solver and life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.
 
 ---
 
