@@ -8,9 +8,11 @@
 
 ### About me
 
-🔭 I'm currently working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+💪 Working towards becoming a full-stack developer.
 
-🌱 I’m currently learning React, Hasura (GraphQL and PostgreSQL), and Docker.
+🔭 Currently working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+
+🌱 Learning React, Hasura (GraphQL and PostgreSQL), and Docker.
 
 ---
 
