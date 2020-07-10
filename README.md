@@ -1,16 +1,23 @@
-### Hi there 👋
+### Hi there
 
-<!--
-**SamSverko/SamSverko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👋 I'm Sam, a front-end developer living in Canada.
 
-Here are some ideas to get you started:
+📚 I'm a natural problem-solver and life-long learner who is not afraid of a challenge, and believe that being able to have fun on the job makes any project possible.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### About me
+
+🔭 I'm currently working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+
+🌱 I’m currently learning React, Hasura (GraphQL and PostgreSQL), and Docker.
+
+---
+
+### Get in touch 💌
+
+💬 Ask me anything on [GitHub](https://github.com/SamSverko/ama)
+
+📧 By email [sam.sverko@gmail.com](mailto:sam.sverko@gmail.com)
+
+🔗 Connect on [LinkedIn](https://www.linkedin.com/in/samsverko/)
