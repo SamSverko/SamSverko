@@ -10,7 +10,7 @@
 
 🌟 **Long-term goal:** Become a Full Stack Developer. Build helpful (and fun) applications for all.
 
-👨‍💻 **Day job:** Working as a Front End Developer at [EQ Works](https://www.eqworks.com/) for both Creative and Engineering teams.
+👨‍💻 **Day-to-day:** Working as a Front End Developer at [EQ Works](https://www.eqworks.com/) for both Creative and Engineering teams.
 
 🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
 
