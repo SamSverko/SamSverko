@@ -1,6 +1,6 @@
 ### Hi there
 
-👋 I'm Sam, a front-end developer living in Canada.
+👋 I'm Sam, a Front End Developer living in Canada.
 
 📚 I'm a natural problem-solver and life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.
 
@@ -8,11 +8,13 @@
 
 ### About me
 
-💪 Working towards becoming a full-stack developer.
+🌟 **Long-term goal:** Become a Full Stack Developer. Build helpful (and fun) applications for all.
 
-🔭 Currently working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+👨‍💻 **Day job:** Working as a Front End Developer at [EQ Works](https://www.eqworks.com/) for both Creative and Engineering teams.
 
-🌱 Learning React, Hasura (GraphQL and PostgreSQL), and Docker.
+🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+
+🌱 **Currently Learning:** React, Hasura (GraphQL and PostgreSQL), Docker, and so much more!
 
 ---
 
