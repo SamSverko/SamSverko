@@ -1,3 +1,7 @@
+![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/solarized/0-profile-details.svg)
+
+![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/solarized/1-repos-per-language.svg) ![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/solarized/2-most-commit-language.svg)
+
 ### Hi there
 
 👋 I'm Sam, a Front End Developer living in Canada.
