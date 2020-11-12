@@ -12,13 +12,13 @@
 
 ### About me
 
-🌟 **Long-term goal:** Become a Full Stack Developer. Build helpful (and fun) applications for all.
+🌟 **Long-term goal:** Become a Full Stack Developer. Building inclusive, helpful (and fun) applications for all.
 
 👨‍💻 **Day-to-day:** Working as a Front End Developer at [EQ Works](https://www.eqworks.com/) for both Creative and Engineering teams.
 
 🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
 
-🌱 **Currently Learning:** React, Hasura (GraphQL and PostgreSQL), Docker, and so much more!
+🌱 **Currently Learning:** React, MongoDB, Next.js, and so much more!
 
 ---
 
