@@ -18,7 +18,7 @@
 
 🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
 
-🌱 **Currently Learning:** React, MongoDB, Next.js, and so much more!
+🌱 **Currently learning:** React, MongoDB, Next.js, and so much more!
 
 ---
 
