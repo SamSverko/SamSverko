@@ -6,7 +6,7 @@
 
 👋 I'm Sam, a Front End Developer living in Canada.
 
-📚 I'm a natural problem-solver and life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.
+📚 I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.
 
 ---
 
@@ -16,7 +16,7 @@
 
 👨‍💻 **Day-to-day:** Working as a Front End Developer on the Creative Studio team at [EQ Works](https://www.eqworks.com/).
 
-🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side-project to digitize my never-ending pile of recipes.
+🔭 **On the side:** Working on [Flatbread](https://github.com/SamSverko/flatbread). A side project to digitize my never-ending pile of recipes.
 
 🌱 **Currently learning:** React, MongoDB, Next.js, Shopify app development, and so much more!
 
