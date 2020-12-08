@@ -14,7 +14,7 @@
     "url": "https://github.com/SamSverko/SamSverko/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index -e mustache"
   },
   "dependencies": {
     "mustache": "^4.1.0"
