@@ -4,11 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<<<<<<< HEAD
-<p>Currently, it is 1°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
-=======
 <p>Currently, it is 2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> overcast clouds.</p>
->>>>>>> bef192a944623522fd68b65befe8d0178ebcb538
 
 <p>Today, the sun rises at 07:38 and sets at 16:43.</p>
 
