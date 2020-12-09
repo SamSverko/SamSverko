@@ -35,8 +35,8 @@
 <p>
   <img alt='Adobe Creative Cloud' src='https://img.shields.io/badge/-Adobe_Creative_Cloud-DA1F26?style=flat-square&logo=adobe-creative-cloud&logoColor=white' />
   <img alt='Microsoft Office' src='https://img.shields.io/badge/-Microsoft_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white' />
-  <img alt='Google Analytics' src='https://img.shields.io/badge/-Google_Analytics-E37400?style=flat-square&logo=google-analytics&logoColor=white' />
   <img alt='Postman' src='https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white' />
+  <img alt='Google Analytics' src='https://img.shields.io/badge/-Google_Analytics-E37400?style=flat-square&logo=google-analytics&logoColor=white' />
   <img alt='Shopify' src='https://img.shields.io/badge/-Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white' />
   <img alt='Netlify' src='https://img.shields.io/badge/-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white' />
   <img alt='Zoom' src='https://img.shields.io/badge/-Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white' />
@@ -86,5 +86,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, December 9, 1:52 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, December 9, 1:53 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
