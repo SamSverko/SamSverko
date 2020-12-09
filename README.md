@@ -1,12 +1,12 @@
 <h1><img src='https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430' width='30'/> Hello! Nice to see you.</h1>
 
-<p>Welcome to my page!</p>
+<p>Welcome to my <del>Myspace</del> README!</p>
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 1°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> overcast clouds.</p>
+<p>Currently, it is 1°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
 
-<p>Today, the sun rises at 07:37 and sets at 16:43.</p>
+<p>Today, the sun rises at 07:38 and sets at 16:43.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -57,6 +57,14 @@
 
 <p>🌱 <b>Currently learning:</b> React Native, TypeScript, Shopify app development, and so much more!</p>
 
+<h2>Currently reading</h2>
+
+<p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b><p>
+
+<p>by Ernest Cline</p>
+
+<p><img src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' /></p>
+
 <h2>Where to find me</h2>
 
 <p>
@@ -77,5 +85,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 8, 7:41 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, December 9, 10:06 AM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>

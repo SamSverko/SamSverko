@@ -2,11 +2,18 @@ require('dotenv').config();
 const fs = require('fs');
 const Mustache = require('mustache');
 const fetch = require('node-fetch')
+const parseString = require('xml2js').parseString;
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
   name: 'Sam',
+  book: {
+    title: false,
+    author: false,
+    image: false,
+    url: false,
+  },
   refresh_date: new Date().toLocaleDateString('en-us', {
     weekday: 'long',
     month: 'long',
@@ -18,7 +25,7 @@ let DATA = {
   }),
 };
 
-async function setWeatherInformation() {
+async function setWeatherInfo() {
   await fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${process.env.LOCATION_LAT}&lon=${process.env.LOCATION_LON}&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
   )
@@ -40,6 +47,22 @@ async function setWeatherInformation() {
     });
 }
 
+async function setBookReadingInfo() {
+  await fetch(
+    `https://www.goodreads.com/review/list/${process.env.GOODREADS_USER_ID}.xml?key=${process.env.GOODREADS_KEY}&v=2&shelf=currently-reading`
+  )
+    .then(response => response.text())
+    .then(str => parseString(str, function (error, result) {
+      if (error) throw new Error;
+
+      const currentlyReading = result.GoodreadsResponse.reviews[0].review[0].book[0];
+      DATA.book.title = currentlyReading.title_without_series[0];
+      DATA.book.author = currentlyReading.authors[0].author[0].name[0]
+      DATA.book.image = currentlyReading.image_url[0];
+      DATA.book.url = currentlyReading.link[0];
+    }))
+}
+
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -49,9 +72,13 @@ async function generateReadMe() {
 }
 
 async function action() {
-  await setWeatherInformation();
+  await setWeatherInfo();
+
+  await setBookReadingInfo();
 
   await generateReadMe();
+
+  console.log('\x1b[32m\x1b[40m', '📄 README successfully generated!');
 }
 
 action();
