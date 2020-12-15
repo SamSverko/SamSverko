@@ -50,11 +50,11 @@
 
 <h2>GitHub Stats</h2>
 
-<div align='center'>
-  [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-  [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-  [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-</div>
+<img src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg' />
+<br />
+
+<img src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg' />
+<img src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg' />
 
 <h2>About me</h2>
 
@@ -94,5 +94,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:51 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:56 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
