@@ -50,10 +50,11 @@
 
 <h2>GitHub Stats</h2>
 
-<img alt='Sam Sverko GitHub user profile details' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg' />
-<br />
-<img alt='Sam Sverko GitHub user repos per language' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg' style='display: inline' />
-<img alt='Sam Sverko GitHub user most commit languages' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg' style='display: inline' />
+<div align='center'>
+  ![Sam Sverko GitHub user profile details](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg "Sam Sverko GitHub user profile details")
+  ![Sam Sverko GitHub user repos per language](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg "Sam Sverko GitHub user repos per language")
+  ![Sam Sverko GitHub user most commit languages](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg "Sam Sverko GitHub user most commit languages")
+</div>
 
 <h2>About me</h2>
 
@@ -93,5 +94,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:43 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:48 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
