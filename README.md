@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 3°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> overcast clouds.</p>
+<p>Currently, it is -2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> broken clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -19,6 +19,7 @@
   <img alt='MongoDB' src='https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white' />
   <img alt='Node.js' src='https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=white' />
   <img alt='React' src='https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black' />
+  <img alt='Yarn' src='https://img.shields.io/badge/-Yarn-2C8EBB?style=flat-square&logo=yarn&logoColor=white' />
   <img alt='GitHub Actions' src='https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white' />
   <img alt='TypeScript' src='https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white' />
   <img alt='Styled Components' src='https://img.shields.io/badge/-Styled_Components-DB7093?style=flat-square&logo=styled-components&logoColor=white' />
@@ -85,5 +86,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Thursday, December 10, 8:06 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:27 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
