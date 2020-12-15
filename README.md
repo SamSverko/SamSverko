@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is -2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> broken clouds.</p>
+<p>Currently, it is -2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -48,6 +48,13 @@
   <img alt='Vercel' src='https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white' />
 </p>
 
+<h2>GitHub Stats</h2>
+
+<img alt='Sam Sverko GitHub user profile details' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg' />
+<br />
+<img alt='Sam Sverko GitHub user repos per language' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg' />
+<img alt='Sam Sverko GitHub user most commit languages' src='https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg' />
+
 <h2>About me</h2>
 
 <p>🌟 <b>Long-term goal:</b> Become a Full Stack Developer. Building inclusive, helpful (and fun) applications for all.</p>
@@ -86,5 +93,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:27 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 15, 1:39 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
