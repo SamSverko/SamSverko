@@ -54,7 +54,8 @@ async function setWeatherData() {
       process.stdout.write('\n');
     })
     .catch((error) => {
-      throw new Error(error);
+      console.error(error);
+      throw new Error;
     });
 }
 
@@ -80,7 +81,8 @@ async function setBookReadingData() {
       process.stdout.write('\n');
     }))
     .catch((error) => {
-      throw new Error(error);
+      console.error(error);
+      throw new Error;
     });
 }
 
@@ -88,7 +90,10 @@ async function generateReadMe() {
   process.stdout.write('\033[36m 🖊️  Generating README...');
 
   await fs.readFile(MUSTACHE_MAIN_DIR, (error, data) => {
-    if (error) throw new Error(error);
+    if (error) {
+      console.error(error);
+      throw new Error;
+    }
 
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync('README.md', output);
