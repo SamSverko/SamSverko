@@ -55,7 +55,6 @@ async function setWeatherData() {
     })
     .catch((error) => {
       console.error(error);
-      throw new Error;
     });
 }
 
@@ -66,8 +65,10 @@ async function setBookReadingData() {
     `https://www.goodreads.com/review/list/${process.env.GOODREADS_USER_ID}.xml?key=${process.env.GOODREADS_KEY}&v=2&shelf=currently-reading`
   )
     .then(response => response.text())
-    .then(str => parseString(str, (error, result) => {
-      if (error) throw new Error(error);
+    .then(stringResponse => parseString(stringResponse, (error, result) => {
+      if (error) {
+        console.error(error);
+      }
 
       const currentlyReading = result.GoodreadsResponse.reviews[0].review[0].book[0];
       DATA.book.title = currentlyReading.title_without_series[0];
@@ -82,7 +83,6 @@ async function setBookReadingData() {
     }))
     .catch((error) => {
       console.error(error);
-      throw new Error;
     });
 }
 
@@ -92,7 +92,6 @@ async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (error, data) => {
     if (error) {
       console.error(error);
-      throw new Error;
     }
 
     const output = Mustache.render(data.toString(), DATA);
