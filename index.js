@@ -2,6 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 const Mustache = require('mustache');
 const fetch = require('node-fetch')
+const readline = require('readline');
 const parseString = require('xml2js').parseString;
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
@@ -47,8 +48,8 @@ async function setWeatherData() {
         timeZone: 'America/Toronto',
       });
 
-      process.stdout.clearLine();
-      process.stdout.cursorTo(0);
+      readline.clearLine(process.stdout);
+      readline.cursorTo(process.stdout, 0);
       process.stdout.write('\033[36m ✅ Weather data saved!');
       process.stdout.write('\n');
     })
@@ -73,8 +74,8 @@ async function setBookReadingData() {
       DATA.book.image = currentlyReading.image_url[0];
       DATA.book.url = currentlyReading.link[0];
 
-      process.stdout.clearLine();
-      process.stdout.cursorTo(0);
+      readline.clearLine(process.stdout);
+      readline.cursorTo(process.stdout, 0);
       process.stdout.write('\033[36m ✅ Book reading data saved!');
       process.stdout.write('\n');
     }))
@@ -101,8 +102,8 @@ async function action() {
 
   await generateReadMe();
 
-  process.stdout.clearLine();
-  process.stdout.cursorTo(0);
+  readline.clearLine(process.stdout);
+  readline.cursorTo(process.stdout, 0);
   process.stdout.write('\033[36m ✅ README successfully generated!');
   process.stdout.write('\n');
 }
