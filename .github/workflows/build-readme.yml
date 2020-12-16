@@ -43,6 +43,8 @@ jobs:
       - name: Generate README file
         run: node index.js
         env:
+          GOODREADS_KEY: ${{secrets.GOODREADS_KEY}}
+          GOODREADS_USER_ID: ${{secrets.GOODREADS_USER_ID}}
           LOCATION_LAT: ${{secrets.LOCATION_LAT}}
           LOCATION_LON: ${{secrets.LOCATION_LON}}
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
