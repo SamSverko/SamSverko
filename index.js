@@ -25,7 +25,9 @@ let DATA = {
   }),
 };
 
-async function setWeatherInfo() {
+async function setWeatherData() {
+  process.stdout.write('\033[36m ⛅ Fetching weather data...');
+
   await fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${process.env.LOCATION_LAT}&lon=${process.env.LOCATION_LON}&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
   )
@@ -44,41 +46,65 @@ async function setWeatherInfo() {
         minute: '2-digit',
         timeZone: 'America/Toronto',
       });
+
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write('\033[36m ✅ Weather data saved!');
+      process.stdout.write('\n');
+    })
+    .catch((error) => {
+      throw new Error(error);
     });
 }
 
-async function setBookReadingInfo() {
+async function setBookReadingData() {
+  process.stdout.write('\033[36m 📖 Fetching book reading data...');
+
   await fetch(
     `https://www.goodreads.com/review/list/${process.env.GOODREADS_USER_ID}.xml?key=${process.env.GOODREADS_KEY}&v=2&shelf=currently-reading`
   )
     .then(response => response.text())
-    .then(str => parseString(str, function (error, result) {
-      if (error) throw new Error;
+    .then(str => parseString(str, (error, result) => {
+      if (error) throw new Error(error);
 
       const currentlyReading = result.GoodreadsResponse.reviews[0].review[0].book[0];
       DATA.book.title = currentlyReading.title_without_series[0];
       DATA.book.author = currentlyReading.authors[0].author[0].name[0]
       DATA.book.image = currentlyReading.image_url[0];
       DATA.book.url = currentlyReading.link[0];
+
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write('\033[36m ✅ Book reading data saved!');
+      process.stdout.write('\n');
     }))
+    .catch((error) => {
+      throw new Error(error);
+    });
 }
 
 async function generateReadMe() {
-  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
-    if (err) throw err;
+  process.stdout.write('\033[36m 🖊️  Generating README...');
+
+  await fs.readFile(MUSTACHE_MAIN_DIR, (error, data) => {
+    if (error) throw new Error(error);
+
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync('README.md', output);
   });
 }
 
 async function action() {
-  await setWeatherInfo();
+  await setWeatherData();
 
-  await setBookReadingInfo();
+  await setBookReadingData();
 
   await generateReadMe();
 
-  console.log('\x1b[32m\x1b[40m', '📄 README successfully generated!');
+  process.stdout.clearLine();
+  process.stdout.cursorTo(0);
+  process.stdout.write('\033[36m ✅ README successfully generated!');
+  process.stdout.write('\n');
 }
 
 action();
