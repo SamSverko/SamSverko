@@ -69,13 +69,13 @@
 
 <table>
   <thead>
-    <tr>
+    <tr align='center'>
       <td><b>Currently Reading</b></td>
       <td><b>Recently Played</b></td>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr align='center'>
       <td>
         <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b> by Ernest Cline</p>
         <img alt='Ready Player Two cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' />
@@ -108,5 +108,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:29 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:39 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
