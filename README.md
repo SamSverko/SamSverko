@@ -67,21 +67,20 @@
 
 <h2>What I'm up to these days</h2>
 
-<table style='vertical-align: top'>
+<table>
   <thead>
     <tr>
       <td><b>Currently Reading</b></td>
       <td><b>Recently Played</b></td>
     </tr>
   </thead>
-  <tbody style='vertical-align: top'>
-    <tr style='vertical-align: top'>
-      <td style='vertical-align: top'>
-        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b></p>
-        <p>by Ernest Cline</p>
+  <tbody>
+    <tr>
+      <td>
+        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b> by Ernest Cline</p>
         <img alt='Ready Player Two cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' />
       </td>
-      <td style='vertical-align: top'>
+      <td>
         <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;787860' target='_blank'>Farming Simulator 19</a></b></p>
         <img alt='Farming Simulator 19 logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;787860&#x2F;cd7055bac7eb78815c575d7e2e9ffcb25ea2582b.jpg' height='100' />
       </td>
@@ -109,5 +108,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:25 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:29 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
