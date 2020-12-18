@@ -35,8 +35,6 @@ async function fetchData(name, fetchUrl, dataFormat) {
     let data =
       (dataFormat === 'json') ? await RESPONSE.json() : await RESPONSE.text()
     return data
-  } else {
-    console.log(RESPONSE)
   }
 
   throw new Error(`Could not fetch ${name} data.`)

@@ -48,6 +48,8 @@ jobs:
           LOCATION_LAT: ${{secrets.LOCATION_LAT}}
           LOCATION_LON: ${{secrets.LOCATION_LON}}
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
+          STEAM_ID: ${{secrets.STEAM_ID}}
+          STEAM_KEY: ${{secrets.STEAM_KEY}}
 
       - name: Push newly-generated README file
         uses: mikeal/publish-to-github-action@master
