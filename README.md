@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is -2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;03d@2x.png' width='15' /> scattered clouds.</p>
+<p>Currently, it is -2°C outside, with <img alt='weather' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;01d@2x.png' width='15' /> clear sky.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -48,7 +48,7 @@
   <img alt='Vercel' src='https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white' />
 </p>
 
-<h2>GitHub Stats</h2>
+<h2>GitHub stats</h2>
 
 [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
@@ -65,13 +65,29 @@
 
 <p>🌱 <b>Currently learning:</b> React Native, TypeScript, Shopify app development, and so much more!</p>
 
-<h2>Currently reading</h2>
+<h2>What I'm up to these days</h2>
 
-<p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b><p>
-
-<p>by Ernest Cline</p>
-
-<p><img src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' /></p>
+<table>
+  <thead>
+    <tr>
+      <td>Currently Reading</td>
+      <td>Recently Played</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b></p>
+        <p>by Ernest Cline</p>
+        <img src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' />
+      </td>
+      <td>
+        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;787860' target='_blank'></a></b></p>
+        <img src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;787860&#x2F;cd7055bac7eb78815c575d7e2e9ffcb25ea2582b.jpg' height='100' />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Where to find me</h2>
 
@@ -93,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 11:46 AM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:13 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
