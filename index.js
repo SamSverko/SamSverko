@@ -1,115 +1,103 @@
-require('dotenv').config();
-const fs = require('fs');
-const Mustache = require('mustache');
+require('dotenv').config()
+const fs = require('fs')
+const Mustache = require('mustache')
 const fetch = require('node-fetch')
-const readline = require('readline');
-const parseString = require('xml2js').parseString;
+const xml2js = require('xml2js')
 
-const MUSTACHE_MAIN_DIR = './main.mustache';
+const FETCH_URL_BOOK = 'https://www.goodreads.com/review/list/' +
+  `${process.env.GOODREADS_USER_ID}.xml` +
+  `?key=${process.env.GOODREADS_KEY}` +
+  '&v=2' +
+  '&shelf=currently-reading'
 
-let DATA = {
-  name: 'Sam',
-  book: {
-    title: false,
-    author: false,
-    image: false,
-    url: false,
-  },
-  refresh_date: new Date().toLocaleDateString('en-us', {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-    timeZoneName: 'short',
-    timeZone: 'America/Toronto',
-  }),
-};
+const FETCH_URL_WEATHER = 'https://api.openweathermap.org/data/2.5/weather' +
+  `?appid=${process.env.OPEN_WEATHER_MAP_KEY}` +
+  `&lat=${process.env.LOCATION_LAT}` +
+  `&lon=${process.env.LOCATION_LON}` +
+  '&units=metric'
 
-async function setWeatherData() {
-  process.stdout.write('\033[36m ⛅ Fetching weather data...');
+async function fetchData(name, fetchUrl, dataFormat) {
+  console.log('\033[36m 🚚 [' + name + '] Fetching data...')
 
-  await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${process.env.LOCATION_LAT}&lon=${process.env.LOCATION_LON}&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
-  )
-    .then(response => response.json())
-    .then(response => {
-      DATA.city_temperature = Math.round(response.main.temp);
-      DATA.city_weather = response.weather[0].description;
-      DATA.city_weather_icon = `https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`;
-      DATA.sun_rise = new Date(response.sys.sunrise * 1000).toLocaleString('en-GB', {
-        hour: '2-digit',
-        minute: '2-digit',
-        timeZone: 'America/Toronto',
-      });
-      DATA.sun_set = new Date(response.sys.sunset * 1000).toLocaleString('en-GB', {
-        hour: '2-digit',
-        minute: '2-digit',
-        timeZone: 'America/Toronto',
-      });
+  const RESPONSE = await fetch(fetchUrl)
 
-      readline.clearLine(process.stdout);
-      readline.cursorTo(process.stdout, 0);
-      process.stdout.write('\033[36m ✅ Weather data saved!');
-      process.stdout.write('\n');
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  if (RESPONSE.status === 200) {
+    console.log('\033[36m 📦 [' + name + '] Fetching complete!')
+
+    let data =
+      (dataFormat === 'json') ? await RESPONSE.json() : await RESPONSE.text()
+    return data
+  }
+
+  throw new Error(`Could not fetch ${name} data.`)
 }
 
-async function setBookReadingData() {
-  process.stdout.write('\033[36m 📖 Fetching book reading data...');
+async function generateREADME(BOOK_DATA, WEATHER_DATA) {
+  console.log('\033[36m 📄 [README] Generating README...')
 
-  await fetch(
-    `https://www.goodreads.com/review/list/${process.env.GOODREADS_USER_ID}.xml?key=${process.env.GOODREADS_KEY}&v=2&shelf=currently-reading`
-  )
-    .then(response => response.text())
-    .then(stringResponse => parseString(stringResponse, (error, result) => {
-      if (error) {
-        console.error(error);
-      }
+  const README_DATA = {
+    book: { ...BOOK_DATA },
+    refresh_date: new Date().toLocaleDateString('en-us', {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      timeZoneName: 'short',
+      timeZone: 'America/Toronto',
+    }),
+    weather: { ...WEATHER_DATA },
+  }
 
-      const currentlyReading = result.GoodreadsResponse.reviews[0].review[0].book[0];
-      DATA.book.title = currentlyReading.title_without_series[0];
-      DATA.book.author = currentlyReading.authors[0].author[0].name[0]
-      DATA.book.image = currentlyReading.image_url[0];
-      DATA.book.url = currentlyReading.link[0];
-
-      readline.clearLine(process.stdout);
-      readline.cursorTo(process.stdout, 0);
-      process.stdout.write('\033[36m ✅ Book reading data saved!');
-      process.stdout.write('\n');
-    }))
-    .catch((error) => {
-      console.error(error);
-    });
-}
-
-async function generateReadMe() {
-  process.stdout.write('\033[36m 🖊️  Generating README...');
-
-  await fs.readFile(MUSTACHE_MAIN_DIR, (error, data) => {
+  await fs.readFile('./main.mustache', (error, data) => {
     if (error) {
-      console.error(error);
+      throw new Error(error)
     }
 
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README.md', output);
-  });
+    const OUTPUT = Mustache.render(data.toString(), README_DATA)
+    fs.writeFileSync('README.md', OUTPUT)
+  })
 }
 
-async function action() {
-  await setWeatherData();
+async function init() {
+  console.log('\033[36m 🟢 Initialize...')
 
-  await setBookReadingData();
+  try {
+    const BOOK_DATA = await fetchData('book', FETCH_URL_BOOK, 'xml')
+      .then((response) => {
+        console.log('\033[36m 🔍 [book] Parsing data...')
+        return xml2js.parseStringPromise(response).then((result) => {
+          const CURRENTLY_READING =
+            result.GoodreadsResponse.reviews[0].review[0].book[0]
 
-  await generateReadMe();
+          return {
+            author: CURRENTLY_READING.authors[0].author[0].name[0],
+            image: CURRENTLY_READING.image_url[0],
+            title: CURRENTLY_READING.title_without_series[0],
+            url: CURRENTLY_READING.link[0],
+          }
+        })
+      })
+    console.log('\033[36m 🎁 [book] Parsing complete!')
 
-  readline.clearLine(process.stdout);
-  readline.cursorTo(process.stdout, 0);
-  process.stdout.write('\033[36m ✅ README successfully generated!');
-  process.stdout.write('\n');
+    const WEATHER_DATA = await fetchData('weather', FETCH_URL_WEATHER, 'json')
+      .then((response) => {
+        console.log('\033[36m 🔍 [weather] Parsing data...')
+
+        return {
+          description: response.weather[0].description,
+          icon: 'https://openweathermap.org/img/wn/' +
+            response.weather[0].icon + '@2x.png',
+          temperature: Math.round(response.main.temp),
+        }
+      })
+    console.log('\033[36m 🎁 [weather] Parsing complete!')
+
+    generateREADME(BOOK_DATA, WEATHER_DATA)
+    console.log('\033[36m ✅ [README] Generating complete!')
+  } catch (error) {
+    throw new Error(error)
+  }
 }
 
-action();
+init()
