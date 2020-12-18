@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is -2°C outside, with <img alt='broken clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> broken clouds.</p>
+<p>Currently, it is -2°C outside, with <img alt='clear sky icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;01d@2x.png' width='15' /> clear sky.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -67,7 +67,7 @@
 
 <h2>What I'm up to these days</h2>
 
-<table>
+<table style='vertical-align: top'>
   <thead>
     <tr>
       <td><b>Currently Reading</b></td>
@@ -75,7 +75,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr style='vertical-align: top'>
+    <tr>
       <td>
         <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;26082916-ready-player-two' target='_blank'>Ready Player Two</a></b></p>
         <p>by Ernest Cline</p>
@@ -109,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:23 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Friday, December 18, 2:24 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
