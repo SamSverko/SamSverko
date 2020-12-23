@@ -81,8 +81,8 @@
         <img alt='Ready Player Two cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1594220208l&#x2F;26082916._SX98_.jpg' height='100' />
       </td>
       <td>
-        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;787860' target='_blank'>Farming Simulator 19</a></b></p>
-        <img alt='Farming Simulator 19 logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;787860&#x2F;cd7055bac7eb78815c575d7e2e9ffcb25ea2582b.jpg' height='100' />
+        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;381210' target='_blank'>Dead by Daylight</a></b></p>
+        <img alt='Dead by Daylight logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;381210&#x2F;78a3f76693dbcd5dd80b5fcf531e8b81b3dd3163.jpg' height='100' />
       </td>
     </tr>
   </tbody>
@@ -108,5 +108,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 22, 7:50 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, December 22, 10:28 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
