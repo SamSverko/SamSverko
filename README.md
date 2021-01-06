@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 2°C outside, with <img alt='few clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;02d@2x.png' width='15' /> few clouds.</p>
+<p>Currently, it is 2°C outside, with <img alt='broken clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> broken clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -24,6 +24,7 @@
   <img alt='TypeScript logo.' src='https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white' />
   <img alt='Styled Components logo.' src='https://img.shields.io/badge/-Styled_Components-DB7093?style=flat-square&logo=styled-components&logoColor=white' />
   <img alt='Sass logo.' src='https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white' />
+  <img alt='Storybook logo.' src='https://img.shields.io/badge/-Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white' />
   <img alt='Bootstrap logo.' src='https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white' />
   <img alt='ESLint logo.' src='https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white' />
   <img alt='Next.js logo.' src='https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white' />
@@ -108,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, January 6, 4:19 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, January 6, 6:27 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
