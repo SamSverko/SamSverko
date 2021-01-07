@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 2°C outside, with <img alt='scattered clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;03n@2x.png' width='15' /> scattered clouds.</p>
+<p>Currently, it is 2°C outside, with <img alt='overcast clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> overcast clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -82,8 +82,8 @@
         <img alt='Rick Mercer Final Report cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1529594996l&#x2F;39215831._SX98_.jpg' height='100' />
       </td>
       <td>
-        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;381210' target='_blank'>Dead by Daylight</a></b></p>
-        <img alt='Dead by Daylight logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;381210&#x2F;78a3f76693dbcd5dd80b5fcf531e8b81b3dd3163.jpg' height='100' />
+        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;1201550' target='_blank'>Mad Experiments: Escape Room</a></b></p>
+        <img alt='Mad Experiments: Escape Room logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;1201550&#x2F;31cc8e80cc9a0048245b226659755da996a96a36.jpg' height='100' />
       </td>
     </tr>
   </tbody>
@@ -109,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, January 6, 6:29 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Wednesday, January 6, 8:03 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
