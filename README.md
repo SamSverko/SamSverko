@@ -82,8 +82,8 @@
         <img alt='Rick Mercer Final Report cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1529594996l&#x2F;39215831._SX98_.jpg' height='100' />
       </td>
       <td>
-        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;242760' target='_blank'>The Forest</a></b></p>
-        <img alt='The Forest logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;242760&#x2F;3a75d451fd17a15d1ff0ba2ac8cb4564cc36233c.jpg' height='100' />
+        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;945360' target='_blank'>Among Us</a></b></p>
+        <img alt='Among Us logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;945360&#x2F;a147961088c49cf44bf0aff61cef08fcec128ecc.jpg' height='100' />
       </td>
     </tr>
   </tbody>
@@ -109,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, January 18, 8:20 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, January 18, 11:01 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
