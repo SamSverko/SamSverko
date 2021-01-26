@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is -2°C outside, with <img alt='snow icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;13d@2x.png' width='15' /> snow.</p>
+<p>Currently, it is -2°C outside, with <img alt='light snow icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;13d@2x.png' width='15' /> light snow.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -78,8 +78,8 @@
   <tbody>
     <tr align='center'>
       <td>
-        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;39215831-rick-mercer-final-report' target='_blank'>Rick Mercer Final Report</a></b> by Rick  Mercer</p>
-        <img alt='Rick Mercer Final Report cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1529594996l&#x2F;39215831._SX98_.jpg' height='100' />
+        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;43309479-inkling' target='_blank'>Inkling</a></b> by Kenneth Oppel</p>
+        <img alt='Inkling cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1586241142l&#x2F;43309479._SX98_.jpg' height='100' />
       </td>
       <td>
         <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;945360' target='_blank'>Among Us</a></b></p>
@@ -109,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, January 26, 10:17 AM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Tuesday, January 26, 1:28 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
