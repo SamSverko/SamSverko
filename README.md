@@ -64,7 +64,7 @@
 
 <p>🔭 <b>On the side:</b> Working on <a href='https://github.com/SamSverko/flatbread' target='_blank'>Flatbread</a>. A side project to digitize my never-ending pile of recipes.</p>
 
-<p>🌱 <b>Currently learning:</b>TypeScript, MongoDB, Jest, and so much more!</p>
+<p>🌱 <b>Currently learning:</b> TypeScript, MongoDB, Jest, and so much more!</p>
 
 <h2>What I'm up to these days</h2>
 
@@ -109,5 +109,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Thursday, February 18, 10:19 AM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Thursday, February 18, 10:23 AM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
