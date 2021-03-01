@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a Front End developer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 0°C outside, with <img alt='light snow icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;13d@2x.png' width='15' /> light snow.</p>
+<p>Currently, it is -1°C outside, with <img alt='overcast clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -66,29 +66,6 @@
 
 <p>🌱 <b>Currently learning:</b> TypeScript, Firebase, MongoDB, Jest, and so much more!</p>
 
-<h2>What I'm up to these days</h2>
-
-<table>
-  <thead>
-    <tr align='center'>
-      <td><b>Currently Reading</b></td>
-      <td><b>Recently Played</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align='center'>
-      <td>
-        <p><b><a href='https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;56374972-think-again' target='_blank'>Think Again: The Power of Knowing What You Don&#39;t Know</a></b> by Adam M. Grant</p>
-        <img alt='Think Again: The Power of Knowing What You Don&#39;t Know cover.' src='https:&#x2F;&#x2F;i.gr-assets.com&#x2F;images&#x2F;S&#x2F;compressed.photo.goodreads.com&#x2F;books&#x2F;1608593027l&#x2F;56374972._SX98_.jpg' height='100' />
-      </td>
-      <td>
-        <p><b><a href='https:&#x2F;&#x2F;store.steampowered.com&#x2F;app&#x2F;730' target='_blank'>Counter-Strike: Global Offensive</a></b></p>
-        <img alt='Counter-Strike: Global Offensive logo.' src='http:&#x2F;&#x2F;media.steampowered.com&#x2F;steamcommunity&#x2F;public&#x2F;images&#x2F;apps&#x2F;730&#x2F;d0595ff02f5c79fd19b06f4d6165c3fda2372820.jpg' height='100' />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 <h2>Where to find me</h2>
 
 <p>
@@ -109,5 +86,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, March 1, 1:17 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, March 1, 2:50 PM EST<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
