@@ -4,7 +4,7 @@
 
 <p>I'm <b>Sam</b>, a User Experience Engineer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
 
-<p>Currently, it is 20°C outside, with <img alt='overcast clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
+<p>Currently, it's 20°C outside, with <img alt='overcast clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04d@2x.png' width='15' /> overcast clouds.</p>
 
 <p>I'm a natural problem-solver and a life-long learner who is not afraid of a challenge. I believe being able to have fun on the job makes any project possible.</p>
 
@@ -51,8 +51,6 @@
 
 <h2>GitHub stats</h2>
 
-[![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
 [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/SamSverko/SamSverko/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
@@ -76,7 +74,7 @@
 
 <h2>How did you get a README on your GitHub profile page?</h2>
 
-<p>🥚 Looks like GitHub hid a few easter eggs in their latest release! You can get a README to display on your GitHub profile if you do the following:<p>
+<p>You can get a README to display on your GitHub profile if you do the following:<p>
 
 <ol>
   <li>Create a new public repository, and name it the exact same as your username (in my case, my username is 'SamSverko', so I created a public repository named 'SamSverko').</li>
@@ -86,5 +84,5 @@
 ---
 
 <p align='center'>
-  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, June 21, 8:25 AM EDT<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
+  This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, June 21, 8:48 AM EDT<br /><a href='https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91'>Create your own here!</a>
 </p>
