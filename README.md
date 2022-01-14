@@ -2,7 +2,7 @@
 
 <p>Welcome to my <del>Myspace</del> README!</p>
 
-<p>I'm <b>Sam</b>, a User Experience Engineer from <img alt='Canadian flag.' src='https://www.flaticon.com/svg/static/icons/svg/197/197430.svg' width='13'/> <b>Ontario, Canada</b>.</p>
+<p>I'm <b>Sam</b>, a User Experience Engineer from 🇨🇦 <b>Ontario, Canada</b>.</p>
 
 <p>Currently, it's -2°C outside, with <img alt='broken clouds icon.' src='https:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;wn&#x2F;04n@2x.png' width='15' /> broken clouds.</p>
 
